@@ -1,0 +1,142 @@
+@font-face{font-family:'iransans';
+    src:url('fonts/IRANSansWeb.ttf') format('truetype'), url('fonts/IRANSansWeb.woff') format('woff');}
+    
+
+
+
+.navbar{
+position: fixed;
+width: 100%;
+min-height: 40px;
+/* background-color: #ae6f6f; */
+background-color: #fff; 
+float: left;
+z-index: 9999;
+}
+
+body{
+    direction: rtl;
+    font-family: 'iransans' !important;
+
+}
+.logo{
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    width: auto;
+  }
+
+  .tws-menu{
+    position: absolute;
+right: 60px;
+width: auto;
+text-align: right;
+  }
+.tws-menu ul {
+    list-style: none;
+margin-right: 30px;
+}
+
+.tws-menu ul li {
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 13px;
+	letter-spacing: .1em;
+	padding: 10px 0;
+	font-weight: 400;
+	position: relative;
+    color: #abb8c3; 
+  
+}
+.tws-menu ul li:first-child {
+	font-weight: 500;
+    color: #000;
+
+}
+.tws-menu ul li::after {
+	display: inline-block;
+	content: '|';
+	padding: 0 12px;
+	font-weight: 400;
+	color: #999;
+}
+
+.tws-menu ul li:last-child::after {
+	content: " ";
+
+}
+
+.tws-footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	min-height: 40px;
+	background-color: #dadada;
+	color: #818181;
+	z-index: 999;
+}
+
+.social {
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+
+.tws-footer a {
+	color: #818181;
+	display: inline-block;
+	padding: 0 7px;
+}
+
+.phone {
+	position: relative;
+	display: inline-block;
+	padding-left: 10px;
+}
+.social i {
+    font-size: 20px;
+}
+
+.social strong{
+    font-size: 21px;
+margin-left: 5px;
+font-weight: 700;
+margin-top: -2px;
+
+
+color: rgb(129, 129, 129);
+
+}
+
+.copyright {
+	position: absolute;
+	right: 30px;
+	top: 10px;
+    
+}
+.copyright a{
+    font-size: 14px;
+}
+.spacer {
+	display: inline-block;
+	padding: 0 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
