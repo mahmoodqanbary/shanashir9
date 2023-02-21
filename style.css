@@ -209,12 +209,12 @@
 		
 	  }
 	  .landing{
-		height: 100vh;
-		background-image: url("img/111.jpg") !important;
+		height: 50%;
+		background-image: url("img/aIMG_0917.jpg") !important;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
+		background-size: contain;
+		background-attachment: local;
 		
 	
 	  }
