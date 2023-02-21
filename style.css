@@ -238,6 +238,9 @@
   .hidden{
 	display: none;
   }
+  .logohide{
+	display: none;
+  }
 
   .logo{
 	position: fixed;
