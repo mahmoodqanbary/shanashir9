@@ -191,7 +191,7 @@
 	}
 	
 	.nav__toggle{
-		font-size: 1.8rem;
+		font-size: 1.2rem;
 		position: absolute;
 		right: 1.5rem ;
 		top: 1rem;
@@ -203,7 +203,7 @@
 		z-index: 1;
 		right: 1.5rem;
 		top: 1rem;
-		font-size: 1.8rem;
+		font-size: 1.2rem;
 		color: var(--title-color-black);
 		cursor: pointer;
 		visibility: visible;
