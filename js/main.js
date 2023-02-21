@@ -3,7 +3,8 @@
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'), 
       navToggle = document.getElementById('nav-toggle'),
-      navClose = document.getElementById('nav-close');
+      navClose = document.getElementById('nav-close'),
+      logoHide = document.getElementById('logo');
 
     /*=============== Menu Show ===============*/
     // Validate if constant exists
@@ -12,7 +13,7 @@ const navMenu = document.getElementById('nav-menu'),
        navToggle.addEventListener('click', () => {
         navToggle.classList.add('hidden');
         navMenu.classList.add('show-menu');
-        navToggle.classList.add('logohide');
+        logoHide.classList.add('logohide');
        
        }) 
     }
@@ -23,7 +24,7 @@ const navMenu = document.getElementById('nav-menu'),
         navClose.addEventListener('click', () =>{
             navMenu.classList.remove('show-menu');
             navToggle.classList.remove('hidden');
-            navToggle.classList.remove('logohide');
+            logoHide.classList.remove('logohide');
         })
     }
 
