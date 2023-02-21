@@ -219,6 +219,14 @@
 		
 	
 	  }
+	  .logo{
+		top: 1rem !important;
+		left: 1.5rem !important;
+	  }
+	 .logo a img {
+		width: 118px;
+		
+	 }
 }
 
 @media screen and (min-width: 1023px){
