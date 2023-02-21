@@ -150,11 +150,16 @@
 		justify-content: center;
 		width: 100%;
 	}
+	
 	.nav ul {
 		padding: 5rem 0 0 3rem;
-		display: flex;
-		flex-direction: column;
+		display: flex !important;
+		flex-direction: column ;
  		 row-gap: 2.5rem;
+		 height: 450px;
+		
+		 justify-content: center;
+		
 	}
 	.haeder .nav ul li::after {
 		content: " ";
@@ -162,6 +167,7 @@
 	}
 	.haeder .nav ul li:first-child {
 		border-bottom: none;
+		display: none ;
 	}
 	.haeder .nav ul li{
 		text-align: center;
