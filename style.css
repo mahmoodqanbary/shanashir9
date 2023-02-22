@@ -92,6 +92,7 @@
 
   .haeder{
 	height: 45px;
+	position: fixed;
   }
 
   .haeder .nav ul li::after {
@@ -134,7 +135,12 @@
 	color: var(--title-color-black) !important;
 }
 
+.links{
+	display: none;
+}
+
 @media screen and (max-width: 1023px){
+	
 	.haeder{
 		position: fixed;
 		background-color: #f8f9fa !important;
