@@ -1,0 +1,8 @@
+.nav__toggle {
+	font-size: 1.2rem;
+	position: absolute;
+	right: 1.5rem;
+	top: 1rem;
+	color: #000000 !important;
+	visibility: visible;
+}

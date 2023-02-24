@@ -413,6 +413,7 @@
 
 .project__container{
 	width:80%;
+	height: 100%;
 	margin: 0 auto;
   min-height: 100vh;
   background: #ffffff;
@@ -420,6 +421,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 	
 }
 
@@ -430,12 +432,14 @@
 	/* margin: 10vmin; */
 	/* overflow: hidden; */
 	transform: skew(5deg);
+	flex-wrap: wrap;
   }
   .projects-container .card {
 	flex: 1;
 	transition: all 1s ease-in-out;
 	height: 75vmin;
 	position: relative;
+	
 	
 
 	
@@ -479,4 +483,9 @@
   }
   .projects-container .card:not(:nth-child(5)) {
 	margin-right: 1em;
+  }
+
+  .test{
+	width: 80%;
+	margin: 0 auto;
   }
