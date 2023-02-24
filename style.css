@@ -297,7 +297,7 @@
 	justify-content: space-between;
 	margin-left: 45px;
 	flex-direction: row-reverse;
-	/* background-color: black; */
+
 	
 	
   }
@@ -321,7 +321,8 @@
 	align-items: center;
 	text-align: left;
 	flex-direction: row-reverse;
-	/* background-color: red; */
+	
+	
 	
 }
 
@@ -340,6 +341,7 @@
 	display: flex;
 	align-items: center;
 	
+	
 }
 
 .copyright div {
@@ -352,4 +354,50 @@
 	
 	 margin-top: -1px;
 	  width: 20px;
+}
+
+
+@media screen and (max-width: 1023px){
+	.copyright{
+		display:none;
+	}
+
+	.social i{
+		font-size: 1.1rem;
+		
+	}
+}
+
+@media screen and (max-width: 430px) {
+
+	.info span{
+		font-size: 1rem;
+	}
+	.info .phone-number span{
+		font-size: .8rem;
+	}
+
+	.social{
+		margin-left: 0px;
+	}
+	
+}
+
+@media screen and (max-width: 576px) {
+
+	.social{
+		margin-left: 4px;
+		justify-content: space-between;
+		
+		
+	}
+
+	.social i{
+		margin-left: 2px;
+	}
+
+	.p-none{
+		display: none;
+	}
+	
 }
