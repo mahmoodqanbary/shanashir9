@@ -71,6 +71,7 @@
 	direction: rtl;
 	font-family: 'iransans' !important;
 	
+	
   }
   
  
@@ -412,6 +413,13 @@
 
 .project__container{
 	width:80%;
+	margin: 0;
+  min-height: 100vh;
+  background: #ffffff;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 	
 }
 
@@ -428,8 +436,7 @@
 	transition: all 1s ease-in-out;
 	height: 75vmin;
 	position: relative;
-	top: 120px;
-	right: 200px;
+	
 
 	
   }
