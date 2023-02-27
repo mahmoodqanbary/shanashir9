@@ -1,0 +1,38 @@
+.nav__toggle {
+	font-size: 1.2rem;
+	position: absolute;
+	right: 1.5rem;
+	top: 1rem;
+	color: #000000 !important;
+	visibility: visible;
+}
+
+@media screen and (max-width: 576px) {
+
+.project__container{
+    width: 100% !important;
+}
+
+.projects-container{
+    top: 0;
+}
+
+.projects-container .card{
+    top: -150px;
+}
+
+.project__container{
+	width:80%;
+	margin: 0 auto;
+  min-height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+ 
+  
+}
+    
+}

@@ -63,7 +63,7 @@
   /*=============== BASE ===============*/
   * {
 	box-sizing: border-box;
-	padding: 0 !important;
+	/* padding: 0 !important; */
 	margin: 0;
   }
   
@@ -413,16 +413,16 @@
 
 .project__container{
 	width:80%;
-	height: 100%;
 	margin: 0 auto;
   min-height: 100vh;
-  background: #ffffff;
   font-family: sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-	
+ 
+ 
+  
 }
 
 .projects-container {
