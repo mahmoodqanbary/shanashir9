@@ -1,0 +1,17 @@
+.project-slider{
+    margin-top: 100px;
+    margin-right: 83px;
+}
+.project-info{
+    margin-top: 100px;
+    left: 0;
+    margin-left: 83px;
+    
+}
+
+.box-slider{
+    width: 75%;
+    height: 50px;
+    float: right;
+    direction: ltr;
+}

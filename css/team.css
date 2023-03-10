@@ -1,0 +1,163 @@
+.team-section {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    direction: rtl;
+    margin-top: 25px;
+  }
+  
+  .team-section {
+    min-height: 100%;
+  }
+  
+  .team-section {
+    /* background: linear-gradient(#cddc39, #009688); */
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  /* style member component */
+  .list-members {
+    background: rgb(248, 249, 250);
+    width: 80%;
+    margin: 4% auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .member {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .member-image {
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .member-image img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  }
+  
+  .member-image:hover img {
+    transform: scale(1.1);
+    -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  filter: none;
+  }
+  
+  .member-info {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .member-info p {
+    margin: 20px 0;
+  }
+  
+  /* style social link */
+  .social-link .fab {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #000;
+    margin: 0 7px;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  
+  .social-link .fab:hover {
+    background: #fff;
+    color: #0080ff;
+    transform: translateY(-7px);
+  }
+  
+  /* Membuat segitiga */
+  .member-image::after {
+    content: "";
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 15px solid rgb(248, 249, 250);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  /* Merubah posisi member-image dengan member-info */
+  @media screen and (min-width: 771px) {
+    .member:nth-child(4n + 3) .member-info,
+    .member:nth-child(4n + 4) .member-info {
+      order: 1;
+    }
+    .member:nth-child(4n + 3) .member-image,
+    .member:nth-child(4n + 4) .member-image {
+      order: 2;
+    }
+  
+    /* Merubah posisi sigitiga pada baris genap */
+    .member:nth-child(4n + 1) .member-image::after,
+    .member:nth-child(4n + 2) .member-image::after {
+      left: 0;
+      right: auto;
+      transform: translateY(-50%) rotateZ(180deg);
+    }
+  }
+  
+  /* Mobile Styles */
+  @media screen and (max-width: 770px) {
+    .list-members {
+      width: 95%;
+    }
+    .member {
+      flex-basis: 100%;
+      font-size: 14px;
+    }
+    .social-link .fab {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+    }
+  
+    .member:nth-child(even) .member-info {
+      order: 1;
+    }
+    .member:nth-child(even) .member-image {
+      order: 2;
+    }
+  
+    /* Merubah posisi sigitiga elemen genap */
+    .member:nth-child(even) .member-image::after {
+      right: 0;
+      left: auto;
+      transform: translateY(-50%) rotateZ(360deg);
+    }
+    .member:nth-child(odd) .member-image::after {
+      left: 0;
+      right: auto;
+      transform: translateY(-50%) rotateZ(180deg);
+    }
+    .team-section {
+        margin-top: 40px;
+    }
+  }
+
+  .nav__toggle {
+    font-size: 1.2rem;
+    position: absolute;
+    right: 1.5rem;
+    top: 1rem;
+    color: #000000 !important;
+    visibility: visible;
+  }
+  
