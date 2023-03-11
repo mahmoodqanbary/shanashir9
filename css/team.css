@@ -1,3 +1,6 @@
+@font-face{font-family:'sahel';
+  src:url('fonts/Sahel.ttf') format('truetype'), url('fonts/Sahel.woff') format('woff');}
+  
 .team-section {
     margin: 0;
     padding: 0;
@@ -59,10 +62,12 @@
   .member-info {
     width: 50%;
     text-align: center;
+    font-family:'sahel' !important;
   }
   
   .member-info p {
     margin: 20px 0;
+    
   }
   
   /* style social link */
