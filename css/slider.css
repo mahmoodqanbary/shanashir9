@@ -3,6 +3,7 @@
 margin: 0 auto;
 max-width: 570px;
 z-index: 0;
+left: 130px;
 
 
 direction: ltr;
@@ -14,6 +15,7 @@ direction: ltr;
 color: #fff;
 border-radius: 3px;
 text-align: center;
+cursor: grab;
 }
 #big .item img{
 
@@ -49,7 +51,7 @@ position: relative;
 }
 #big.owl-theme .owl-next,
 #big.owl-theme .owl-prev {
-background: rgb(0, 48, 142);
+/* background: rgb(0, 48, 142); */
 width: 22px;
 line-height: 40px;
 height: 40px;
@@ -58,6 +60,7 @@ position: absolute;
 text-align: center;
 top: 50%;
 color: #fff;
+font-size: 35px;
 }
 #big.owl-theme .owl-prev {
 left: 10px;
@@ -73,5 +76,10 @@ display: none;
 
 .owl-dots{
   display: none;
+}
+
+#big.owl-theme .owl-next:hover,
+#big.owl-theme .owl-prev:hover {
+  background:rgb(0, 48, 142); 
 }
 
