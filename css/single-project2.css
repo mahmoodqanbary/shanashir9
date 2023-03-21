@@ -163,5 +163,38 @@
 }
 
 
+.gallery-section{
+  top: 2300px;
+}
+
+.site-section-heading{
+  color: #6c757d !important;
+}
+
+.plan-section{
+  top: 2350px;
+}
+
+.map{
+  position: absolute;
+  top: 3000px;
+}
+
+.main-section{
+  position: relative;
+  top: 80px;
+  z-index: 999;
+}
+
+.clearline{
+  width: 100%;
+  height: 50px;
+  background: #2296cf;;
+  position: fixed;
+  bottom: 45px;
+
+  opacity: .5 ;
+}
+
 
 
